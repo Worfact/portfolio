@@ -1,3 +1,8 @@
+# Linter
+.eslint
+.eslintignore
+.editorconfig
+
 # Logs
 logs
 *.log

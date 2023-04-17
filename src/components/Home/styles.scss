@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: #fbffe3;
+  margin-top: 15vh;
+  margin-right: 5vw;
+
+  &-title {
+    width: 100%;
+    font-size: 5rem;
+  }
+
+  &-presentation {
+    padding-left: 8px;
+    margin-top: 10px;
+    font-size: 2rem;
+  }
+}
+
+.grid-link {
+  height: 20vh;
+  margin-top: 10vh;
+
+  &-list {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
+      width: 50%;
+      
+      &:first-child, &:last-child {
+        border: 1px solid #efd9b431;
+      }
+
+      &:hover {
+        font-size: 1.5rem;
+        transform: skew(-5deg);
+        cursor: pointer;
+        transition: ease-in 0.15s;
+      }
+    }
+
+  }
+}
+
+

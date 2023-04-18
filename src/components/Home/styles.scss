@@ -9,6 +9,7 @@
   &-title {
     width: 100%;
     font-size: 5rem;
+    text-shadow: 1px 0 0 currentColor;
   }
 
   &-presentation {
@@ -33,7 +34,7 @@
       align-items: center;
       height: 50%;
       width: 50%;
-      
+
       &:first-child, &:last-child {
         border: 1px solid #efd9b431;
       }

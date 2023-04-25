@@ -1,15 +1,23 @@
-.page {
+@import '../../styles/_vars.scss';
 
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: $background-black;
+  color: $text-vanilla;
+  
   &-home {
-    display: flex;
-    flex-direction: column;
     align-items: flex-end;
     min-height: 100vh;
     background-image: url('../../assets/Images/home_background.jpg');
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-color: #090909;
     background-position: left -100px bottom; 
-    border: 4vw solid #efd9b4;
+    border: 4vw solid $border-background-vanilla;
+  }
+
+  &:not(&-home) {
+    border-inline : 10vw solid $border-background-vanilla;
+    border-top: 4vw solid $border-background-vanilla;
   }
 }

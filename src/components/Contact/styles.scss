@@ -1,0 +1,10 @@
+@import '../../styles/vars';
+
+.contact {
+
+  &-title {
+    text-align: center;
+    color: $text-vanilla;
+    font-size: 5rem;
+  }
+}

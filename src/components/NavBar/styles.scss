@@ -1,0 +1,19 @@
+@import '../../styles/vars';
+
+.hidden {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-block: 25px;
+}
+
+.navlink {
+  color: $text-vanilla;
+  font-size: 2rem;
+  text-shadow: 1px 0 5px currentColor;
+  border-inline: 2px solid $border-ligth-brown;
+  padding: 2px;
+}
